@@ -3,7 +3,7 @@
  *  Creates one object of type CSVReader class, which reads input from a CSV file. Uses
  *  the attributes stored in CSVReader object to create objects of type Country class.
  *
- * @author Foothill College, [YOUR NAME HERE]
+ * @author Foothill College, Parushi Sharma 
  */
 public class TestCountry 
 {
