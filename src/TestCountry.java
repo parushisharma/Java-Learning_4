@@ -5,8 +5,7 @@
  *
  * @author Foothill College, Parushi Sharma 
  */
-public class TestCountry 
-{
+public class TestCountry {
 
 	/**
 	 * Includes test examples for class Country.
