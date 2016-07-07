@@ -1,49 +1,34 @@
 public class Country  {
 
 	//variable fields.
-	private String countryNames;
+	private String name;
 	private SubscriptionYear subscriptions;
-	private int minYear;
-	private int maxYear;
+//	private double[] SubscriptionYear;
+	
 
-	public Country(String country) {
-	    this.countryNames = country;
+	public Country(String country, int numberOfYears) {
+	    this.name = country;
 	    this.subscriptions = null;
-	    this.maxYear = 0;
-	    this.minYear = 9999;
+	    
+	
+	}
+	public void addSubscriptionYear(int i, double countryData) {
 	
 	}
 
-	public Country(String string, int numberOfYears) {
-	// TODO Auto-generated constructor stub
-	}
-	//adds the subscription.
+	
+	//adds the subscription. NEED HELP GETTING STARTED WITH THIS.
 	public double getNumSubscriptionsForPeriod(int year, double subscription) {
-	    SubscriptionYear newNode = new SubscriptionYear(year, subscription);
-	    if(this.isEmpty()) {
-	        newNode.setNode(subscriptions);
-	        subscriptions = newNode;
-	    }
-	    else {
-	        SubscriptionYear current = subscriptions;
-	        while(current.getNext()!=null) {
-	            current = current.getNext();
-	        }
-	        current.setNode(newNode);
-	    }
+	    
 		return subscription;
 	}
 	
-	//need help implementing this function
-	public void update(int minYear, int maxYear) {
-	
-	}
 	
 	//overrides the toString method and prints out the countries.
 	public String toString()
 	{
 	    String result="";
-	    result += "\n"+this.countryNames;
+	    result += "\n"+this.name;
 	    SubscriptionYear current = subscriptions;
 	    while(current!=null)
 	    {
@@ -54,11 +39,11 @@ public class Country  {
 	}
 	//returns countryName
 	 public String getName() {
-	    return this.countryNames;
+	    return this.name;
 	}
 	//overrides the equals method and returns country name if found
 	public boolean equals(Object obj) {
-	    return this.countryNames.equalsIgnoreCase(((Country) obj).getName());
+	    return this.name.equalsIgnoreCase(((Country) obj).getName());
 	}
 	public boolean isEmpty() {
 	    return (subscriptions == null);

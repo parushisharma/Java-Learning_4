@@ -4,37 +4,44 @@ public class SubscriptionYear {
 	private double subscriptions;
 	SubscriptionYear next;
 	
-	public SubscriptionYear(int year2, double subscription) {
-		// TODO Auto-generated constructor stub
-	}
+	
 	//stores the year and it's statistical data.
-	public void addSubscriptionYear(int year,double subscriptions) {
+	public SubscriptionYear(int year,double subscriptions) {
 	    setYear(year);
 	    setSubscription(subscriptions);
 	    this.next = null;
 	}
+	
 	//sets the year
 	public void setYear(int Year) {
 	    this.year= Year;
 	}
-	//sets the cellular data.
+	
+	//sets the subscriptions .
 	public void setSubscription(double value) {
 	    this.subscriptions = value;
 	}
+	
+	//gets the year
 	public int getYear() {
 	    return year;
 	}   
-	 //returns the stat data
+	
+	 //gets the subscriptions 
 	public double getSubscription() {
 	    return subscriptions;
 	}
+	
 	public String toString() {
 	    return "Number of Subscriptions: "+subscriptions;
 	}
+	
 	//sets the node
 	public void setNode(SubscriptionYear next) {
 	    this.next = next;
 	}
+	
+	// pulls next subscription year 
 	public SubscriptionYear getNext() {
 	    return this.next;
 	}
