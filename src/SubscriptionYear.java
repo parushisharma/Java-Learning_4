@@ -2,14 +2,14 @@ public class SubscriptionYear {
 	
 	private int year;
 	private double subscriptions;
-	SubscriptionYear next;
+	//SubscriptionYear next;
 	
 	
 	//stores the year and it's statistical data.
 	public SubscriptionYear(int year,double subscriptions) {
 	    setYear(year);
 	    setSubscription(subscriptions);
-	    this.next = null;
+	   // this.next = null;
 	}
 	
 	//sets the year
@@ -35,7 +35,7 @@ public class SubscriptionYear {
 	public String toString() {
 	    return "Number of Subscriptions: "+subscriptions;
 	}
-	
+	/*
 	//sets the node
 	public void setNode(SubscriptionYear next) {
 	    this.next = next;
@@ -45,4 +45,5 @@ public class SubscriptionYear {
 	public SubscriptionYear getNext() {
 	    return this.next;
 	}
+	*/
 }

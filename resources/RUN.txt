@@ -1,0 +1,5 @@
+OUTPUT: 
+
+Aruba (1960 to 2012): 1170.50 
+Hungary (1960 to 2012): 1246.58 
+Singapore (1960 to 2012): 1582.80 
