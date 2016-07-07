@@ -33,17 +33,7 @@ public class SubscriptionYear {
 	}
 	
 	public String toString() {
-	    return "Number of Subscriptions: "+subscriptions;
+	    return "Number of Subscriptions: "+ subscriptions;
 	}
-	/*
-	//sets the node
-	public void setNode(SubscriptionYear next) {
-	    this.next = next;
-	}
-	
-	// pulls next subscription year 
-	public SubscriptionYear getNext() {
-	    return this.next;
-	}
-	*/
+
 }

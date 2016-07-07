@@ -55,10 +55,13 @@ public class Country  {
 	 public String getName() {
 	    return this.name;
 	}
+	 
 	//overrides the equals method and returns country name if found
 	public boolean equals(Object obj) {
 	    return this.name.equalsIgnoreCase(((Country) obj).getName());
 	}
+	
+	// checks to see if the array is null 
 	public boolean isEmpty() {
 	    return (subscriptions == null);
 	}
