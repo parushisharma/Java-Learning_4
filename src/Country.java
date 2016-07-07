@@ -1,18 +1,20 @@
 public class Country  {
 
-	//variable fields.
+	// Instance variable fields.
 	private String name;
 	private  SubscriptionYear[] subscriptions;
 	private  int c;
 	
-	// set up 
+	// Constructor that takes in the country name and number of years  
 	public Country(String country, int numberOfYears) {
 	    this.name = country;
 	    this.subscriptions = new SubscriptionYear[numberOfYears];
 	    this.c = 0;
 	}
 	
-	//
+	// Method that takes in the year, and a single subscription
+	// It creates a new SubscriptionYear object and that object 
+	// is saved in the subscriptions array. 
 	public void addSubscriptionYear(int year, double countryData) {
 		SubscriptionYear years = new SubscriptionYear(year,countryData);
 		this.subscriptions[this.c] = years; 
@@ -20,7 +22,8 @@ public class Country  {
 	}
 
 	
-	//adds the subscription. NEED HELP GETTING STARTED WITH THIS.
+	// Method that takes in the starting year and the ending year
+	// returns the total number of subscriptions between the two years
 	public double getNumSubscriptionsForPeriod(int syear, int eyear) {
 		double subscription = 0;
 	    for (int i = 0; i < subscriptions.length ; i++ ) {
@@ -33,7 +36,7 @@ public class Country  {
 	}
 	
 	
-	//overrides the toString method and prints out the countries.
+	//  Method which returns a representation of the country 
 	public String toString()
 	{
 	    String result="";
