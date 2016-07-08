@@ -49,12 +49,13 @@ public class Country  {
 	
 	public double getNumSubscriptionsForPeriod(int syear, int eyear) {
 		double subscription = 0;
+		
 	    for (int i = 0; i < subscriptions.length ; i++ ) {
 	    	if (subscriptions[i].getYear() >= syear && subscriptions[i].getYear() <= eyear) {
 	    		subscription = subscriptions[i].getSubscription() + subscription;
 	    	} else {
-                //returns Error message and sets the sum to -1 
-                System.out.println("ERROR : requested year is less than starting year ");
+                //returns Error message and sets the running sum to -1 
+                System.out.println("ERROR: Problem with the years input");
                 subscription = -1;
                 }
 	    }

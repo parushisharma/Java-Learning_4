@@ -5,4 +5,5 @@ Singapore (1960 to 2012): 1582.80
 Bahrain (1960 to 2014): 1287.26 
 Afghanistan (1960 to 2014): 269.42 
 Faeroe Islands (1960 to 2012): 1274.88 
-Bahrain (1960 to 1890): 1287.26 
+ERROR: Problem with the years input
+Bahrain (1960 to 1890): -1.00
