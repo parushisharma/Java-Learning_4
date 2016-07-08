@@ -91,8 +91,20 @@ public class TestCountry {
 
 
 		// TODO: For full credit, include test cases in addition to those provided.
+		totalSubscriptions = countries[20].getNumSubscriptionsForPeriod(1960,2012);
+		System.out.printf(countryNames[20] + " (1960 to 2014): %.2f \n", totalSubscriptions);
+		
+		totalSubscriptions = countries[2].getNumSubscriptionsForPeriod(1960,2012);
+		System.out.printf(countryNames[2] + " (1960 to 2014): %.2f \n", totalSubscriptions);
+		
+		totalSubscriptions = countries[78].getNumSubscriptionsForPeriod(1960,2012);
+		System.out.printf(countryNames[78] + " (1960 to 2012): %.2f \n", totalSubscriptions);
 		//
 		// TODO: Also, make sure to test for other invalid requests.
+		
+		totalSubscriptions = countries[20].getNumSubscriptionsForPeriod(1960,2012);
+		System.out.printf(countryNames[20] + " (1960 to 1890): %.2f \n", totalSubscriptions);
+		
 		//
 	}
 }
