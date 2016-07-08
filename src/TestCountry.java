@@ -9,6 +9,7 @@ public class TestCountry {
 
 	/**
 	 * Includes test examples for class Country.
+	 * @param  String[] args 		The typical main statement  
 	 */
 	public static void main(String[] args) 
 	{
