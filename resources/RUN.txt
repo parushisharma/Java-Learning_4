@@ -1,5 +1,8 @@
 OUTPUT: 
-
 Aruba (1960 to 2012): 1170.50 
 Hungary (1960 to 2012): 1246.58 
 Singapore (1960 to 2012): 1582.80 
+Bahrain (1960 to 2014): 1287.26 
+Afghanistan (1960 to 2014): 269.42 
+Faeroe Islands (1960 to 2012): 1274.88 
+Bahrain (1960 to 1890): 1287.26 
