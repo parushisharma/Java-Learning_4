@@ -1,0 +1,174 @@
+FEEDBACK:
+
+Well done in implementing class Country toString() method to leverage 
+	class SubscriptionYear’s toString() method.
+
+
+
+-0 Your output of for invalid data ranges is very hard to read.
+   Why do you have multiple messages of "ERROR: Problem with the years input"?
+   Reduce the error messages to only one per request for number of subscriptions.
+   
+   Next time minus for this.
+   
+   
+-0.5 Why does your output differ for the same set of valid test ranges?
+    See sample output below where you have 207.38 and 208.38.
+    There is not data prior to 1990 for the row titled "UN classification" in the 
+    full CSV file.
+    Next time minus one for each invalid result.
+    
+    
+-0 Missing documentation for your CSVReader class in Javadocs.
+   I see that you commented your source code. 
+   However the format is incorrect. Instead of:
+	/*
+	 * This method is a Constructor that takes in the country name and number of years. 
+	 * @param country 				The name of the country 
+	 * @param numberOfYears			The integer of the number of years 
+	 */
+	  
+	public Country(String country, int numberOfYears) { ... }
+	
+	Use /** as the opening comments.
+	  
+    Did you forget to verify whether your index.html file in "doc" folder generated correctly? 
+    Next time minus for this.
+    
+    
+-Bita.
+
+
+
+sample output:
+...
+
+Aruba (1960 to 2012): 1170.50 
+
+Hungary (1960 to 2012): 1246.58 
+
+Singapore (1960 to 2012): 1582.80 
+
+
+Instructor test cases:
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+Least developed countries: UN classification (1990 to 2012): 207.38 
+
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+Least developed countries: UN classification (1990 to 2050): 207.38 
+
+Least developed countries: UN classification (1920 to 2012): 208.38 
+
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+ERROR: Problem with the years input
+Least developed countries: UN classification (1900 to 1950): -1.00 
+
